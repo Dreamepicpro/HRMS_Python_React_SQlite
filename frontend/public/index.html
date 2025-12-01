@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#A020F0" />
+    <meta name="description" content="VES HRMS - Virrudheeswara Engineering Services HR Management System" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Tailwind CSS CDN for faster development -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              vesEmployee: '#A020F0',
+              vesHR: '#4169E1',
+              vesAccent: '#FF6B6B',
+              vesSuccess: '#10B981',
+              vesWarning: '#F59E0B',
+              vesError: '#EF4444'
+            }
+          }
+        }
+      }
+    </script>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <title>VES HRMS - HR Management System</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <!-- React Hot Toast Styles -->
+    <style>
+      .Toastify__toast {
+        border-radius: 0.5rem;
+        font-family: 'Inter', sans-serif;
+      }
+      
+      .ves-gradient {
+        background: linear-gradient(135deg, #A020F0 0%, #4169E1 100%);
+      }
+      
+      .ves-shadow {
+        box-shadow: 0 10px 15px -3px rgba(160, 32, 240, 0.1), 0 4px 6px -2px rgba(160, 32, 240, 0.05);
+      }
+      
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #f1f5f9;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #A020F0;
+        border-radius: 4px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #8B1A8B;
+      }
+    </style>
+  </body>
+</html>

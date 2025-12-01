@@ -1,6 +1,3 @@
-# HRMS_Python_React_SQlite
-# HRMS-Full-Functional-with-SQLITE
-HRMS fully functionaly React with Python advanced system 
 # VES HRMS - People App
 
 **Virrudheeswara Engineering Services**
