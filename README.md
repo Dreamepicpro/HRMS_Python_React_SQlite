@@ -56,11 +56,11 @@ npm start
 
 ## Login Credentials
 
-| Role | Username | Password |
-|------|----------|----------|
-| Admin | `admin` | `admin123` |
-| HR | `hr_manager` | `hr123` |
-| Employee | `ajith.b` | `1012` |
+HR accounts:
+	• hr1 / HR@123
+	• hr2 / HR@123
+	• hr3 / HR@123
+hr4 / HR@123
 
 ---
 
@@ -299,3 +299,4 @@ USER ENTERS:  "VEShr123!"
                   ▼
           STORED IN DATABASE
           (only the hash, never plain password)
+
